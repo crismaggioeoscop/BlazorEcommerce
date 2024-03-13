@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "bnC6Dz40M2ZjLOawdlOPNWUgCs4RWUfdPqQHql3UqQ5UI2LVw+174ikj1nno8yKCGWMyc3Xh1k5dI+ZUNM7lTA==",
+  "dgSpecHash": "gWPCAEs10nit3OaSLRFs7V7fk8/a3ZAOCC3Z0RxInMwr2Hs1u4wByTvoc4Q8+2HkMxMoAlZF7q9VozYmc0zDpw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cristian.maggiorano\\Source\\Repos\\crismaggioeoscop\\BlazorEcommerce\\Shared\\BlazorApp1.Shared.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Shared\\BlazorApp1.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cristian.maggiorano\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.17\\microsoft.windowsdesktop.app.ref.7.0.17.nupkg.sha512",
+    "C:\\Users\\cristian.maggiorano\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.17\\microsoft.netcore.app.ref.7.0.17.nupkg.sha512",
+    "C:\\Users\\cristian.maggiorano\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.17\\microsoft.aspnetcore.app.ref.7.0.17.nupkg.sha512"
+  ],
   "logs": []
 }

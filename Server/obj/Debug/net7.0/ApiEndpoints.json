@@ -1,13 +1,49 @@
 [
   {
     "ContainingType": "BlazorApp1.Server.Controllers.ProductController",
-    "Method": "GetProduct",
+    "Method": "GetProducts",
     "RelativePath": "api/Product",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "BlazorApp1.Shared.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[BlazorApp1.Shared.Product, BlazorApp1.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlazorApp1.Server.Controllers.ProductController",
+    "Method": "GetProduct",
+    "RelativePath": "api/Product/{productId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlazorApp1.Shared.ServiceResponse\u00601[[BlazorApp1.Shared.Product, BlazorApp1.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "BlazorApp1.Server.Controllers.WeatherForecastController",

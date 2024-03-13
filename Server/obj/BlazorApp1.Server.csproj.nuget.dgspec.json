@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cristian.maggiorano\\Source\\Repos\\crismaggioeoscop\\BlazorEcommerce\\Server\\BlazorApp1.Server.csproj": {}
+    "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Server\\BlazorApp1.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cristian.maggiorano\\Source\\Repos\\crismaggioeoscop\\BlazorEcommerce\\Client\\BlazorApp1.Client.csproj": {
+    "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\BlazorApp1.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cristian.maggiorano\\Source\\Repos\\crismaggioeoscop\\BlazorEcommerce\\Client\\BlazorApp1.Client.csproj",
+        "projectUniqueName": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\BlazorApp1.Client.csproj",
         "projectName": "BlazorApp1.Client",
-        "projectPath": "C:\\Users\\cristian.maggiorano\\Source\\Repos\\crismaggioeoscop\\BlazorEcommerce\\Client\\BlazorApp1.Client.csproj",
+        "projectPath": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\BlazorApp1.Client.csproj",
         "packagesPath": "C:\\Users\\cristian.maggiorano\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cristian.maggiorano\\Source\\Repos\\crismaggioeoscop\\BlazorEcommerce\\Client\\obj\\",
+        "outputPath": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages"
@@ -35,8 +35,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\cristian.maggiorano\\Source\\Repos\\crismaggioeoscop\\BlazorEcommerce\\Shared\\BlazorApp1.Shared.csproj": {
-                "projectPath": "C:\\Users\\cristian.maggiorano\\Source\\Repos\\crismaggioeoscop\\BlazorEcommerce\\Shared\\BlazorApp1.Shared.csproj"
+              "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Shared\\BlazorApp1.Shared.csproj": {
+                "projectPath": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Shared\\BlazorApp1.Shared.csproj"
               }
             }
           }
@@ -80,7 +80,7 @@
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.2, )",
+              "version": "[8.0.3, )",
               "autoReferenced": true
             }
           },
@@ -97,8 +97,20 @@
           "warn": true,
           "downloadDependencies": [
             {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.17, 7.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.17, 7.0.17]"
+            },
+            {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[7.0.16, 7.0.16]"
+              "version": "[7.0.17, 7.0.17]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.17, 7.0.17]"
             }
           ],
           "frameworkReferences": {
@@ -106,7 +118,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -115,14 +127,14 @@
         }
       }
     },
-    "C:\\Users\\cristian.maggiorano\\Source\\Repos\\crismaggioeoscop\\BlazorEcommerce\\Server\\BlazorApp1.Server.csproj": {
+    "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Server\\BlazorApp1.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cristian.maggiorano\\Source\\Repos\\crismaggioeoscop\\BlazorEcommerce\\Server\\BlazorApp1.Server.csproj",
+        "projectUniqueName": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Server\\BlazorApp1.Server.csproj",
         "projectName": "BlazorApp1.Server",
-        "projectPath": "C:\\Users\\cristian.maggiorano\\Source\\Repos\\crismaggioeoscop\\BlazorEcommerce\\Server\\BlazorApp1.Server.csproj",
+        "projectPath": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Server\\BlazorApp1.Server.csproj",
         "packagesPath": "C:\\Users\\cristian.maggiorano\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cristian.maggiorano\\Source\\Repos\\crismaggioeoscop\\BlazorEcommerce\\Server\\obj\\",
+        "outputPath": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages"
@@ -146,11 +158,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\cristian.maggiorano\\Source\\Repos\\crismaggioeoscop\\BlazorEcommerce\\Client\\BlazorApp1.Client.csproj": {
-                "projectPath": "C:\\Users\\cristian.maggiorano\\Source\\Repos\\crismaggioeoscop\\BlazorEcommerce\\Client\\BlazorApp1.Client.csproj"
+              "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\BlazorApp1.Client.csproj": {
+                "projectPath": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\BlazorApp1.Client.csproj"
               },
-              "C:\\Users\\cristian.maggiorano\\Source\\Repos\\crismaggioeoscop\\BlazorEcommerce\\Shared\\BlazorApp1.Shared.csproj": {
-                "projectPath": "C:\\Users\\cristian.maggiorano\\Source\\Repos\\crismaggioeoscop\\BlazorEcommerce\\Shared\\BlazorApp1.Shared.csproj"
+              "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Shared\\BlazorApp1.Shared.csproj": {
+                "projectPath": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Shared\\BlazorApp1.Shared.csproj"
               }
             }
           }
@@ -204,6 +216,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.17, 7.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[7.0.17, 7.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.17, 7.0.17]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.17, 7.0.17]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -212,18 +242,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\cristian.maggiorano\\Source\\Repos\\crismaggioeoscop\\BlazorEcommerce\\Shared\\BlazorApp1.Shared.csproj": {
+    "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Shared\\BlazorApp1.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cristian.maggiorano\\Source\\Repos\\crismaggioeoscop\\BlazorEcommerce\\Shared\\BlazorApp1.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Shared\\BlazorApp1.Shared.csproj",
         "projectName": "BlazorApp1.Shared",
-        "projectPath": "C:\\Users\\cristian.maggiorano\\Source\\Repos\\crismaggioeoscop\\BlazorEcommerce\\Shared\\BlazorApp1.Shared.csproj",
+        "projectPath": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Shared\\BlazorApp1.Shared.csproj",
         "packagesPath": "C:\\Users\\cristian.maggiorano\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cristian.maggiorano\\Source\\Repos\\crismaggioeoscop\\BlazorEcommerce\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages"
@@ -274,12 +304,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.17, 7.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.17, 7.0.17]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.17, 7.0.17]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
