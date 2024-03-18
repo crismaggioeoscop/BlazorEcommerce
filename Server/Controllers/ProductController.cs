@@ -1,6 +1,7 @@
 ﻿using BlazorApp1.Server.Data;
 using BlazorApp1.Server.Services.ProductServices;
 using BlazorApp1.Shared;
+using BlazorApp1.Shared.DTO;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -37,10 +38,10 @@ namespace BlazorApp1.Server.Controllers
             return Ok(result);
         }
 
-        [HttpGet("search/{searchText}")]
-        public async Task<ActionResult<ServiceResponse<Product>>> SearchProducts(string searchText)
+        [HttpGet("search/{searchText}/{page}")]
+        public async Task<ActionResult<ServiceResponse<ProductSearchResult>>> SearchProducts(string searchText, int page)
         {
-            var result = await _productService.FindProductsBySearchText(searchText);
+            var result = await _productService.SearchProducts(searchText, page);
             return Ok(result);
         }
 

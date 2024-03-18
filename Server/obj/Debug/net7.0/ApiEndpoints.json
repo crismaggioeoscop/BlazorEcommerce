@@ -1,5 +1,31 @@
 [
   {
+    "ContainingType": "BlazorApp1.Server.Controllers.CartController",
+    "Method": "GetCartProducts",
+    "RelativePath": "api/Cart/products",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cartItems",
+        "Type": "System.Collections.Generic.List\u00601[[BlazorApp1.Client.Shared.CartItem, BlazorApp1.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlazorApp1.Shared.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[BlazorApp1.Shared.DTO.CartProductResponse, BlazorApp1.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "BlazorApp1.Server.Controllers.CategoryController",
     "Method": "GetCategories",
     "RelativePath": "api/Category",
@@ -94,7 +120,7 @@
   {
     "ContainingType": "BlazorApp1.Server.Controllers.ProductController",
     "Method": "SearchProducts",
-    "RelativePath": "api/Product/search/{searchText}",
+    "RelativePath": "api/Product/search/{searchText}/{page}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -103,11 +129,16 @@
         "Name": "searchText",
         "Type": "System.String",
         "IsRequired": true
+      },
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "BlazorApp1.Shared.ServiceResponse\u00601[[BlazorApp1.Shared.Product, BlazorApp1.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "BlazorApp1.Shared.ServiceResponse\u00601[[BlazorApp1.Shared.DTO.ProductSearchResult, BlazorApp1.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

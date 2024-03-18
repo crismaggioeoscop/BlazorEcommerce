@@ -1,4 +1,6 @@
 ﻿using BlazorApp1.Server.Data;
+using BlazorApp1.Shared;
+using BlazorApp1.Shared.DTO;
 
 namespace BlazorApp1.Server.Services.ProductServices
 {
@@ -48,7 +50,7 @@ namespace BlazorApp1.Server.Services.ProductServices
             return response;
         }
 
-        public async Task<ServiceResponse<List<Product>>> FindProductsBySearchText(string searchText)
+        public async Task<List<Product>> FindProductsBySearchText(string searchText)
         {
             var response = new ServiceResponse<List<Product>>()
             {
@@ -60,12 +62,12 @@ namespace BlazorApp1.Server.Services.ProductServices
                     .ToListAsync()
             };
 
-            return response;
-        }
+            return response.Data;
+        } 
 
         public async Task<ServiceResponse<List<string>>> GetProductSearchSuggestions(string searchText)
         {
-            var products = (await FindProductsBySearchText(searchText)).Data; 
+            var products = (await FindProductsBySearchText(searchText)); 
              
             List<string> suggestions = new List<string>();
 
@@ -96,5 +98,40 @@ namespace BlazorApp1.Server.Services.ProductServices
                 Data = suggestions
             };
         }
+
+        public async Task<ServiceResponse<List<Product>>> GetFeaturedProducts()
+        {
+            var response = new ServiceResponse<List<Product>>()
+            {
+                Data = await _context.Products.Where(p => p.Featured).ToListAsync()
+            };
+
+            return response;
+        }
+
+        public async Task<ServiceResponse<ProductSearchResult>> SearchProducts(string searchText, int page)
+        {
+            var pageResults = 2f;
+            var pageCount = Math.Ceiling((await FindProductsBySearchText(searchText)).Count / pageResults);
+            var products = await _context.Products
+                                .Where(p => p.Title.ToLower().Contains(searchText.ToLower()) ||
+                                            p.Description.ToLower().Contains(searchText.ToLower()))
+                                .Include(p => p.Variants) 
+                                .Skip((page - 1) * (int)pageResults)
+                                .Take((int)pageResults)
+                                .ToListAsync();
+
+            var response = new ServiceResponse<ProductSearchResult>
+            {
+                Data = new ProductSearchResult
+                {
+                    Products = products,
+                    CurrentPage = page,
+                    Pages = (int)pageCount
+                }
+            };
+
+            return response;
+        } 
     }
 }

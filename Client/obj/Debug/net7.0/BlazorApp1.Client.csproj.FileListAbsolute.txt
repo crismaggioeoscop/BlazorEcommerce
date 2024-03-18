@@ -2508,3 +2508,12 @@ C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEco
 C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\obj\Debug\net7.0\compressed\36bk3c8imt.gz
 C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\obj\Debug\net7.0\compressed\lx0j09e0fz.gz
 C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\obj\Debug\net7.0\compressed\66ic1f69nz.gz
+C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\obj\Debug\net7.0\scopedcss\Shared\ShopLayout.razor.rz.scp.css
+C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\obj\Debug\net7.0\scopedcss\Shared\ShopNavMenu.razor.rz.scp.css
+C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\obj\Debug\net7.0\scopedcss\Shared\HomeButton.razor.rz.scp.css
+C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\obj\Debug\net7.0\scopedcss\Shared\FeaturedProducts.razor.rz.scp.css
+C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\bin\Debug\net7.0\wwwroot\_framework\Blazored.LocalStorage.dll
+C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\bin\Debug\net7.0\wwwroot\_framework\Blazored.LocalStorage.dll.gz
+C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\bin\Debug\net7.0\Blazored.LocalStorage.dll
+C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\obj\Debug\net7.0\compressed\5vz2ojqkms.gz
+C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\obj\Debug\net7.0\scopedcss\Pages\Cart.razor.rz.scp.css
