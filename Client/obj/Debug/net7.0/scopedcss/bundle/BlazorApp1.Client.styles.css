@@ -436,3 +436,19 @@ main[b-i3rp9kx8y5] {
         display: block;
     }
 }
+/* /Shared/UserButton.razor.rz.scp.css */
+.show-menu[b-xrpyd4hhtt] {
+    display: block;
+}
+
+.user-button[b-xrpyd4hhtt] {
+    margin-left: .5em;
+}
+
+.top-row a[b-xrpyd4hhtt] {
+    margin-left: 0;
+}
+
+.dropdown-item:hover[b-xrpyd4hhtt] {
+    background-color: white;
+}

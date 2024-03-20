@@ -1,4 +1,4 @@
-﻿namespace BlazorApp1.Client.Shared
+﻿namespace BlazorApp1.Shared
 {
     public class CartItem
     {

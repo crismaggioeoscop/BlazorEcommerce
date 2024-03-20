@@ -309,3 +309,5 @@ C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEco
 C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Server\obj\Debug\net7.0\BlazorApp1.Server.genruntimeconfig.cache
 C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Server\obj\Debug\net7.0\ref\BlazorApp1.Server.dll
 C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Server\bin\Debug\net7.0\Blazored.LocalStorage.dll
+C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Server\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Authorization.dll
+C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Server\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

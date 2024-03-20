@@ -60,6 +60,10 @@
               "target": "Package",
               "version": "[4.5.0, )"
             },
+            "Microsoft.AspNetCore.Components.Authorization": {
+              "target": "Package",
+              "version": "[7.0.17, )"
+            },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
               "version": "[7.0.15, )"
@@ -68,6 +72,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.15, )"
+            },
+            "Microsoft.AspNetCore.WebUtilities": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             },
             "Microsoft.NET.ILLink.Analyzers": {
               "suppressParent": "All",
@@ -186,6 +194,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.17, )"
+            },
             "Microsoft.AspNetCore.Components.WebAssembly.Server": {
               "target": "Package",
               "version": "[7.0.15, )"

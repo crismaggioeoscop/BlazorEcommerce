@@ -1,9 +1,12 @@
-global using BlazorApp1.Shared;  
 global using Microsoft.EntityFrameworkCore;
+global using Microsoft.AspNetCore.Authentication.JwtBearer;
+global using Microsoft.IdentityModel.Tokens;
+global using BlazorApp1.Shared;  
 global using BlazorApp1.Server.Data;
 global using BlazorApp1.Server.Services.CategoryService;
 global using BlazorApp1.Server.Services.ProductServices;
 global using BlazorApp1.Server.Services.CartService;
+global using BlazorApp1.Server.Services.AuthService;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,6 +24,18 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<ICartService, CartService>();
+builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuerSigningKey = true,
+            IssuerSigningKey = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes(builder.Configuration.GetSection("AppSettings:Token").Value)),
+            ValidateIssuer = false,
+            ValidateAudience = false
+        };
+    }); 
 
 var app = builder.Build();
 
@@ -46,6 +61,8 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
+app.UseAuthorization();
 
 app.MapRazorPages();
 app.MapControllers();
