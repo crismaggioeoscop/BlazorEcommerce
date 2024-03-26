@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Gu+BNXt86HO70iRvLhUeD/kPnvplP2Q7KsPPn8CeGeIC173OugooGaaxYx+0HD81VW6qG/nJFkIpjS6a9LsGjQ==",
+  "dgSpecHash": "BvLWD6OeHudZFwjxvNyHduKO1IelxDoE0UHj1rw+VmgCk+WhJifXvXrn9rL+HQLdyJJ0HO+lhi26evxa8tWjkg==",
   "success": true,
   "projectFilePath": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\BlazorApp1.Client.csproj",
   "expectedPackageFiles": [
@@ -39,9 +39,6 @@
     "C:\\Users\\cristian.maggiorano\\.nuget\\packages\\system.io.pipelines\\7.0.0\\system.io.pipelines.7.0.0.nupkg.sha512",
     "C:\\Users\\cristian.maggiorano\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\cristian.maggiorano\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
-    "C:\\Users\\cristian.maggiorano\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.17\\microsoft.windowsdesktop.app.ref.7.0.17.nupkg.sha512",
-    "C:\\Users\\cristian.maggiorano\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.17\\microsoft.netcore.app.ref.7.0.17.nupkg.sha512",
-    "C:\\Users\\cristian.maggiorano\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.17\\microsoft.aspnetcore.app.ref.7.0.17.nupkg.sha512",
     "C:\\Users\\cristian.maggiorano\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.17\\microsoft.netcore.app.runtime.mono.browser-wasm.7.0.17.nupkg.sha512"
   ],
   "logs": []

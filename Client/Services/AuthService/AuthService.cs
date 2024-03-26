@@ -1,12 +1,16 @@
 ﻿using BlazorApp1.Shared.Users;
+using Microsoft.AspNetCore.Components.Authorization;
 
 namespace BlazorApp1.Client.Services.AuthService
 {
     public class AuthService : IAuthService
     {
         private readonly HttpClient _http;
-        public AuthService(HttpClient httpClient) {
+        private readonly AuthenticationStateProvider _authenticationStateProvider;
+
+        public AuthService(HttpClient httpClient, AuthenticationStateProvider authenticationStateProvider) {
             _http = httpClient;
+            _authenticationStateProvider = authenticationStateProvider;
         }
 
         public async Task<ServiceResponse<bool>> ChangePassword(UserChangePassword request)
@@ -25,6 +29,11 @@ namespace BlazorApp1.Client.Services.AuthService
         {
             var response = await _http.PostAsJsonAsync("api/auth/register", request);
             return await response.Content.ReadFromJsonAsync<ServiceResponse<int>>();
+        }
+
+        public async Task<bool> IsUserAuthenticated()
+        {
+            return (await _authenticationStateProvider.GetAuthenticationStateAsync()).User.Identity.IsAuthenticated;
         }
     }
 }

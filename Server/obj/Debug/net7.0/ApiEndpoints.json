@@ -79,6 +79,129 @@
   },
   {
     "ContainingType": "BlazorApp1.Server.Controllers.CartController",
+    "Method": "StoreCartItems",
+    "RelativePath": "api/Cart",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cartItems",
+        "Type": "System.Collections.Generic.List\u00601[[BlazorApp1.Shared.CartItem, BlazorApp1.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlazorApp1.Shared.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[BlazorApp1.Shared.DTO.CartProductResponse, BlazorApp1.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlazorApp1.Server.Controllers.CartController",
+    "Method": "GetDbCartProducts",
+    "RelativePath": "api/Cart",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BlazorApp1.Shared.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[BlazorApp1.Shared.DTO.CartProductResponse, BlazorApp1.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlazorApp1.Server.Controllers.CartController",
+    "Method": "RemoveItemFromCart",
+    "RelativePath": "api/Cart/{productId}/{productTypeId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "productTypeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlazorApp1.Shared.ServiceResponse\u00601[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlazorApp1.Server.Controllers.CartController",
+    "Method": "AddToCart",
+    "RelativePath": "api/Cart/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cartItem",
+        "Type": "BlazorApp1.Shared.CartItem",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlazorApp1.Shared.ServiceResponse\u00601[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlazorApp1.Server.Controllers.CartController",
+    "Method": "GetCartItemsCount",
+    "RelativePath": "api/Cart/count",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BlazorApp1.Shared.ServiceResponse\u00601[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlazorApp1.Server.Controllers.CartController",
     "Method": "GetCartProducts",
     "RelativePath": "api/Cart/products",
     "HttpMethod": "POST",
@@ -104,6 +227,32 @@
     ]
   },
   {
+    "ContainingType": "BlazorApp1.Server.Controllers.CartController",
+    "Method": "UpdateQuantity",
+    "RelativePath": "api/Cart/update-quantity",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cartItem",
+        "Type": "BlazorApp1.Shared.CartItem",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlazorApp1.Shared.ServiceResponse\u00601[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "BlazorApp1.Server.Controllers.CategoryController",
     "Method": "GetCategories",
     "RelativePath": "api/Category",
@@ -114,6 +263,46 @@
     "ReturnTypes": [
       {
         "Type": "BlazorApp1.Shared.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[BlazorApp1.Shared.Category, BlazorApp1.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlazorApp1.Server.Controllers.OrderController",
+    "Method": "CreateOrder",
+    "RelativePath": "api/Order",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BlazorApp1.Shared.ServiceResponse\u00601[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlazorApp1.Server.Controllers.OrderController",
+    "Method": "GetOrders",
+    "RelativePath": "api/Order",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BlazorApp1.Shared.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[BlazorApp1.Shared.Order, BlazorApp1.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

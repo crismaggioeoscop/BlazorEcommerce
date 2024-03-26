@@ -1,4 +1,5 @@
 ﻿using BlazorApp1.Shared.Users;
+using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
@@ -9,11 +10,13 @@ namespace BlazorApp1.Server.Services.AuthService
     {
         private readonly DataContext _context;
         private readonly IConfiguration _configuration;
+        private readonly IHttpContextAccessor _httpContextAccessor;
 
-        public AuthService(DataContext context, IConfiguration configuration)
+        public AuthService(DataContext context, IConfiguration configuration, IHttpContextAccessor httpContextAccessor)
         {
             _context = context;
             _configuration = configuration;
+            _httpContextAccessor = httpContextAccessor;
         }
 
         public async Task<ServiceResponse<string>> Login(string email, string password)
@@ -121,5 +124,10 @@ namespace BlazorApp1.Server.Services.AuthService
                 return new ServiceResponse<bool> { Data = true, Message = "Password changed successfully!" };
             }
         }
+
+        // Get the user id from the http context. Adding this comment to leave a record of a bug that happened to me. Apparently, if you are using an old login, maybe the token (?) 
+        // is outdated. The error happens here, in user.findfirstvalue, it throws an exception. If you want to fix it to make it work, you need to login again. Needs a better approach to avoid this
+        public int GetUserId() => int.Parse(_httpContextAccessor.HttpContext.User.FindFirstValue(ClaimTypes.NameIdentifier));
+        
     }
 }
