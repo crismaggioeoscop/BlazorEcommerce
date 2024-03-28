@@ -1,7 +1,8 @@
 global using Microsoft.EntityFrameworkCore;
 global using Microsoft.AspNetCore.Authentication.JwtBearer;
 global using Microsoft.IdentityModel.Tokens;
-global using BlazorApp1.Shared;  
+global using BlazorApp1.Shared;
+global using BlazorApp1.Shared.Users;
 global using BlazorApp1.Server.Data;
 global using BlazorApp1.Server.Services.CategoryService;
 global using BlazorApp1.Server.Services.ProductServices;
@@ -9,6 +10,7 @@ global using BlazorApp1.Server.Services.CartService;
 global using BlazorApp1.Server.Services.AuthService;
 global using BlazorApp1.Server.Services.OrderService;
 global using BlazorApp1.Server.Services.PaymentService;
+global using BlazorApp1.Server.Services.AddressService;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -29,6 +31,7 @@ builder.Services.AddScoped<ICartService, CartService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IOrderService, OrderService>();
 builder.Services.AddScoped<IPaymentService, PaymentService>();
+builder.Services.AddScoped<IAddressService, AddressService>();
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {

@@ -13,5 +13,6 @@ namespace BlazorApp1.Shared.Users
         public byte[] PasswordHash { get; set; }
         public byte[] PasswordSalt { get; set; }
         public DateTime DateCreated { get; set; } = DateTime.Now;
+        public Address Address { get; set; }
     }
 }

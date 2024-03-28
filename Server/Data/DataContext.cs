@@ -1,6 +1,4 @@
-﻿using BlazorApp1.Shared.Users;
-
-namespace BlazorApp1.Server.Data
+﻿namespace BlazorApp1.Server.Data
 {
     public class DataContext : DbContext
     {
@@ -275,6 +273,7 @@ namespace BlazorApp1.Server.Data
         public DbSet<CartItem> CartItems { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<OrderItem> OrderItems { get; set; }
+        public DbSet<Address> Addresses { get; set; }
 
     }
 }
