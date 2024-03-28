@@ -128,6 +128,9 @@ namespace BlazorApp1.Server.Services.AuthService
         // Get the user id from the http context. Adding this comment to leave a record of a bug that happened to me. Apparently, if you are using an old login, maybe the token (?) 
         // is outdated. The error happens here, in user.findfirstvalue, it throws an exception. If you want to fix it to make it work, you need to login again. Needs a better approach to avoid this
         public int GetUserId() => int.Parse(_httpContextAccessor.HttpContext.User.FindFirstValue(ClaimTypes.NameIdentifier));
-        
+
+         public string GetUserEmail() => _httpContextAccessor.HttpContext.User.FindFirstValue(ClaimTypes.Name);
+
+        public async Task<User> GetUserByEmail(string email) => await _context.Users.FirstOrDefaultAsync(user => user.Email.ToLower().Equals(email.ToLower()));
     }
 }

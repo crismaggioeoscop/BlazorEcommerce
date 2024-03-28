@@ -8,6 +8,7 @@ global using BlazorApp1.Server.Services.ProductServices;
 global using BlazorApp1.Server.Services.CartService;
 global using BlazorApp1.Server.Services.AuthService;
 global using BlazorApp1.Server.Services.OrderService;
+global using BlazorApp1.Server.Services.PaymentService;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -27,6 +28,7 @@ builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<ICartService, CartService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IOrderService, OrderService>();
+builder.Services.AddScoped<IPaymentService, PaymentService>();
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {

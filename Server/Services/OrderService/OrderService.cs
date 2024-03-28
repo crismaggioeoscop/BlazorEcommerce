@@ -16,9 +16,9 @@ namespace BlazorApp1.Server.Services.OrderService
         }
 
 
-        public async Task<ServiceResponse<bool>> PlaceOrder()
+        public async Task<ServiceResponse<bool>> PlaceOrder(int userId)
         {
-            var products = _cartService.GetDbCartProducts().Result.Data;
+            var products = _cartService.GetDbCartProducts(userId).Result.Data;
             decimal totalPrice = 0;
             products.ForEach(p => totalPrice += p.Price * p.Quantity);
 
@@ -33,14 +33,14 @@ namespace BlazorApp1.Server.Services.OrderService
 
             var order = new Order
             {
-                UserId = _authservice.GetUserId(),
+                UserId = userId,
                 OrderDate = DateTime.Now,
                 TotalPrice = totalPrice,
                 OrderItems = orderItems
             };
 
             _context.Orders.Add(order);
-            _context.CartItems.RemoveRange(_context.CartItems.Where(ci => ci.UserId == _authservice.GetUserId()));
+            _context.CartItems.RemoveRange(_context.CartItems.Where(ci => ci.UserId == userId));
             await _context.SaveChangesAsync();
 
             return new ServiceResponse<bool> { Data = true }; 
@@ -57,17 +57,21 @@ namespace BlazorApp1.Server.Services.OrderService
                 .ToListAsync();
 
             var orderResponse = new List<OrderOverviewResponse>();
-            orders.ForEach(order =>
-            {
-                orderResponse.Add(new OrderOverviewResponse
-                {
-                    Id = order.Id,
-                    OrderDate = order.OrderDate,
-                    TotalPrice = order.TotalPrice,
-                    Product = order.OrderItems.Count > 1 ? $"{order.OrderItems.First().Product.Title} and" + $"{order.OrderItems.Count - 1} more..." : order.OrderItems.First().Product.Title,
-                    ProductImageUrl = order.OrderItems.First().Product.ImageUrl
-                });
-            });
+
+            orders.ForEach(o => orderResponse.Add(
+                new OrderOverviewResponse
+                    {
+                        Id = o.Id,
+                        OrderDate = o.OrderDate,
+                        TotalPrice = o.TotalPrice,
+                        Product = o.OrderItems.Count > 1 ?
+                            $"{o.OrderItems.First().Product.Title} and" +
+                            $" {o.OrderItems.Count - 1} more..." :
+                            o.OrderItems.First().Product.Title,
+                        ProductImageUrl = o.OrderItems.First().Product.ImageUrl
+                    }
+                )
+            );
 
             response.Data = orderResponse;
 

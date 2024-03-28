@@ -15,12 +15,6 @@ namespace BlazorApp1.Server.Controllers
             _orderService = orderService;
         }
 
-        [HttpPost]
-        public async Task<ActionResult<ServiceResponse<int>>> CreateOrder()
-        {
-            return Ok(await _orderService.PlaceOrder());
-        }
-
         [HttpGet]
         public async Task<ActionResult<ServiceResponse<List<Order>>>> GetOrders()
         {
