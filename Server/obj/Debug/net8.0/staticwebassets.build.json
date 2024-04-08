@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "avpU1WrPfq+0iI9sF6ibu1/lZ2mKtnTaKyRrBNUMeKI=",
+  "Hash": "xJTFqNe+udD89b90rp/SIv/GWfJvMZjQGTzD+KEuO7k=",
   "Source": "BlazorApp1.Server",
   "BasePath": "_content/BlazorApp1.Server",
   "Mode": "Default",
@@ -28,6 +28,44 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\cristian.maggiorano\\.nuget\\packages\\mudblazor\\6.19.1\\staticwebassets\\MudBlazor.min.css",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\cristian.maggiorano\\.nuget\\packages\\mudblazor\\6.19.1\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\cristian.maggiorano\\.nuget\\packages\\mudblazor\\6.19.1\\staticwebassets\\MudBlazor.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\cristian.maggiorano\\.nuget\\packages\\mudblazor\\6.19.1\\staticwebassets\\MudBlazor.min.js",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\cristian.maggiorano\\.nuget\\packages\\mudblazor\\6.19.1\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\cristian.maggiorano\\.nuget\\packages\\mudblazor\\6.19.1\\staticwebassets\\MudBlazor.min.js"
+    },
     {
       "Identity": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.boot.json",
       "SourceId": "BlazorApp1.Client",
@@ -349,7 +387,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\cristian.maggiorano\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\7.0.15\\lib\\net7.0\\Microsoft.AspNetCore.Components.Forms.dll"
+      "OriginalItemSpec": "C:\\Users\\cristian.maggiorano\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\7.0.17\\lib\\net7.0\\Microsoft.AspNetCore.Components.Forms.dll"
     },
     {
       "Identity": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll",
@@ -368,7 +406,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\cristian.maggiorano\\.nuget\\packages\\microsoft.aspnetcore.components.web\\7.0.15\\lib\\net7.0\\Microsoft.AspNetCore.Components.Web.dll"
+      "OriginalItemSpec": "C:\\Users\\cristian.maggiorano\\.nuget\\packages\\microsoft.aspnetcore.components.web\\7.0.17\\lib\\net7.0\\Microsoft.AspNetCore.Components.Web.dll"
     },
     {
       "Identity": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.dll",
@@ -637,6 +675,44 @@
       "OriginalItemSpec": "C:\\Users\\cristian.maggiorano\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\7.0.0\\lib\\net7.0\\Microsoft.Extensions.FileSystemGlobbing.dll"
     },
     {
+      "Identity": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Localization.Abstractions.dll",
+      "SourceId": "BlazorApp1.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Localization.Abstractions.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\cristian.maggiorano\\.nuget\\packages\\microsoft.extensions.localization.abstractions\\7.0.17\\lib\\net7.0\\Microsoft.Extensions.Localization.Abstractions.dll"
+    },
+    {
+      "Identity": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Localization.dll",
+      "SourceId": "BlazorApp1.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Localization.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\cristian.maggiorano\\.nuget\\packages\\microsoft.extensions.localization\\7.0.17\\lib\\net7.0\\Microsoft.Extensions.Localization.dll"
+    },
+    {
       "Identity": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
       "SourceId": "BlazorApp1.Client",
       "SourceType": "Project",
@@ -729,7 +805,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\cristian.maggiorano\\.nuget\\packages\\microsoft.jsinterop\\7.0.15\\lib\\net7.0\\Microsoft.JSInterop.dll"
+      "OriginalItemSpec": "C:\\Users\\cristian.maggiorano\\.nuget\\packages\\microsoft.jsinterop\\7.0.17\\lib\\net7.0\\Microsoft.JSInterop.dll"
     },
     {
       "Identity": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.JSInterop.WebAssembly.dll",
@@ -863,6 +939,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\cristian.maggiorano\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.17\\runtimes\\browser-wasm\\lib\\net7.0\\mscorlib.dll"
+    },
+    {
+      "Identity": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\MudBlazor.dll",
+      "SourceId": "BlazorApp1.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/MudBlazor.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\cristian.maggiorano\\.nuget\\packages\\mudblazor\\6.19.1\\lib\\net7.0\\MudBlazor.dll"
     },
     {
       "Identity": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\netstandard.dll",
@@ -4095,6 +4190,25 @@
       "OriginalItemSpec": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Private.CoreLib.dll"
     },
     {
+      "Identity": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\obj\\Debug\\net7.0\\compressed\\177ug20cdz.gz",
+      "SourceId": "BlazorApp1.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Localization.Abstractions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Localization.Abstractions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Localization.Abstractions.dll"
+    },
+    {
       "Identity": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\obj\\Debug\\net7.0\\compressed\\2gpwi1vctc.gz",
       "SourceId": "BlazorApp1.Client",
       "SourceType": "Project",
@@ -4435,6 +4549,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.IO.Compression.ZipFile.dll"
+    },
+    {
+      "Identity": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\obj\\Debug\\net7.0\\compressed\\4ga13hk451.gz",
+      "SourceId": "BlazorApp1.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Web.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll"
     },
     {
       "Identity": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\obj\\Debug\\net7.0\\compressed\\4iwagetcvf.gz",
@@ -5539,6 +5672,25 @@
       "OriginalItemSpec": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Private.Xml.dll"
     },
     {
+      "Identity": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\obj\\Debug\\net7.0\\compressed\\c2ty8wfbn5.gz",
+      "SourceId": "BlazorApp1.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Localization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Localization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Localization.dll"
+    },
+    {
       "Identity": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\obj\\Debug\\net7.0\\compressed\\chop0t0rnr.gz",
       "SourceId": "BlazorApp1.Client",
       "SourceType": "Project",
@@ -6451,6 +6603,25 @@
       "OriginalItemSpec": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Xml.ReaderWriter.dll"
     },
     {
+      "Identity": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\obj\\Debug\\net7.0\\compressed\\jywrr0tfzj.gz",
+      "SourceId": "BlazorApp1.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/MudBlazor.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\MudBlazor.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\MudBlazor.dll"
+    },
+    {
       "Identity": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\obj\\Debug\\net7.0\\compressed\\k0mbqnsets.gz",
       "SourceId": "BlazorApp1.Client",
       "SourceType": "Project",
@@ -6620,6 +6791,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Net.NetworkInformation.dll"
+    },
+    {
+      "Identity": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\obj\\Debug\\net7.0\\compressed\\loecdjr8k0.gz",
+      "SourceId": "BlazorApp1.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.JSInterop.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll"
     },
     {
       "Identity": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\obj\\Debug\\net7.0\\compressed\\lx0j09e0fz.gz",
@@ -6926,25 +7116,6 @@
       "OriginalItemSpec": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\BlazorApp1.Shared.pdb"
     },
     {
-      "Identity": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\obj\\Debug\\net7.0\\compressed\\otnsjkliv6.gz",
-      "SourceId": "BlazorApp1.Client",
-      "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Forms.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll"
-    },
-    {
       "Identity": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\obj\\Debug\\net7.0\\compressed\\pq2t30xp9s.gz",
       "SourceId": "BlazorApp1.Client",
       "SourceType": "Project",
@@ -7152,25 +7323,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Reflection.TypeExtensions.dll"
-    },
-    {
-      "Identity": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\obj\\Debug\\net7.0\\compressed\\seajfzig1l.gz",
-      "SourceId": "BlazorApp1.Client",
-      "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.JSInterop.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll"
     },
     {
       "Identity": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\obj\\Debug\\net7.0\\compressed\\smbrngwfqc.gz",
@@ -7496,25 +7648,6 @@
       "OriginalItemSpec": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Net.Requests.dll"
     },
     {
-      "Identity": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\obj\\Debug\\net7.0\\compressed\\vrpkwfs74e.gz",
-      "SourceId": "BlazorApp1.Client",
-      "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Web.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll"
-    },
-    {
       "Identity": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\obj\\Debug\\net7.0\\compressed\\vza6tgc1vh.gz",
       "SourceId": "BlazorApp1.Client",
       "SourceType": "Project",
@@ -7570,6 +7703,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Security.Cryptography.Cng.dll"
+    },
+    {
+      "Identity": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\obj\\Debug\\net7.0\\compressed\\w8zmagh8ua.gz",
+      "SourceId": "BlazorApp1.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Forms.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll"
     },
     {
       "Identity": "C:\\Users\\cristian.maggiorano\\repositories\\Blazor\\BlazorEcommerceGithub\\BlazorEcommerce\\Client\\obj\\Debug\\net7.0\\compressed\\wbw16nue67.gz",

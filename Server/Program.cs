@@ -12,6 +12,7 @@ global using BlazorApp1.Server.Services.OrderService;
 global using BlazorApp1.Server.Services.PaymentService;
 global using BlazorApp1.Server.Services.AddressService;
 global using BlazorApp1.Server.Services.ProductTypeService;
+using MudBlazor.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,7 +24,6 @@ builder.Services.AddDbContext<DataContext>(options =>
 });
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
-
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IProductService, ProductService>();

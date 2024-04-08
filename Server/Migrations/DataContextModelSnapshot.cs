@@ -141,6 +141,28 @@ namespace BlazorApp1.Server.Migrations
                         });
                 });
 
+            modelBuilder.Entity("BlazorApp1.Shared.Image", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Data")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("ProductId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("Images");
+                });
+
             modelBuilder.Entity("BlazorApp1.Shared.Order", b =>
                 {
                     b.Property<int>("Id")
@@ -657,6 +679,13 @@ namespace BlazorApp1.Server.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("BlazorApp1.Shared.Image", b =>
+                {
+                    b.HasOne("BlazorApp1.Shared.Product", null)
+                        .WithMany("Images")
+                        .HasForeignKey("ProductId");
+                });
+
             modelBuilder.Entity("BlazorApp1.Shared.OrderItem", b =>
                 {
                     b.HasOne("BlazorApp1.Shared.Order", "Order")
@@ -721,6 +750,8 @@ namespace BlazorApp1.Server.Migrations
 
             modelBuilder.Entity("BlazorApp1.Shared.Product", b =>
                 {
+                    b.Navigation("Images");
+
                     b.Navigation("Variants");
                 });
 

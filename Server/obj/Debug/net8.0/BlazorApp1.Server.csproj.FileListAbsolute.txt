@@ -161,3 +161,15 @@ C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEco
 C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Server\bin\Debug\net8.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Server\bin\Debug\net8.0\Microsoft.AspNetCore.Components.dll
+C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Server\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Server\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Server\bin\Debug\net8.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Server\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Server\bin\Debug\net8.0\Microsoft.Extensions.Localization.dll
+C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Server\bin\Debug\net8.0\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Server\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Server\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Server\bin\Debug\net8.0\Microsoft.JSInterop.dll
+C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Server\bin\Debug\net8.0\MudBlazor.dll

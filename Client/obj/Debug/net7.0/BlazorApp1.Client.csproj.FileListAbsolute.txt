@@ -2324,8 +2324,6 @@ C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEco
 C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\obj\Debug\net7.0\compressed\crmh1d4fyc.gz
 C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\obj\Debug\net7.0\compressed\xkf3yk5hf6.gz
 C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\obj\Debug\net7.0\compressed\93303re3vh.gz
-C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\obj\Debug\net7.0\compressed\otnsjkliv6.gz
-C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\obj\Debug\net7.0\compressed\vrpkwfs74e.gz
 C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\obj\Debug\net7.0\compressed\n1dlh7mmk6.gz
 C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\obj\Debug\net7.0\compressed\67x65hzq4b.gz
 C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\obj\Debug\net7.0\compressed\36501wyx13.gz
@@ -2343,7 +2341,6 @@ C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEco
 C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\obj\Debug\net7.0\compressed\j9sm3kldbj.gz
 C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\obj\Debug\net7.0\compressed\msaae67xd0.gz
 C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\obj\Debug\net7.0\compressed\097fta9s4g.gz
-C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\obj\Debug\net7.0\compressed\seajfzig1l.gz
 C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\obj\Debug\net7.0\compressed\4xzpysy7l6.gz
 C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\obj\Debug\net7.0\compressed\fgu83zxx2j.gz
 C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\obj\Debug\net7.0\compressed\w47lzamyj8.gz
@@ -2537,3 +2534,18 @@ C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEco
 C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\obj\Debug\net7.0\scopedcss\Pages\Admin\ProductTypes.razor.rz.scp.css
 C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\obj\Debug\net7.0\scopedcss\Pages\Admin\Products.razor.rz.scp.css
 C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\obj\Debug\net7.0\scopedcss\Pages\Admin\EditProduct.razor.rz.scp.css
+C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Localization.dll
+C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\bin\Debug\net7.0\wwwroot\_framework\MudBlazor.dll
+C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Localization.Abstractions.dll.gz
+C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Localization.dll.gz
+C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\bin\Debug\net7.0\wwwroot\_framework\MudBlazor.dll.gz
+C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\bin\Debug\net7.0\Microsoft.Extensions.Localization.dll
+C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\bin\Debug\net7.0\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\bin\Debug\net7.0\MudBlazor.dll
+C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\obj\Debug\net7.0\compressed\w8zmagh8ua.gz
+C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\obj\Debug\net7.0\compressed\4ga13hk451.gz
+C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\obj\Debug\net7.0\compressed\c2ty8wfbn5.gz
+C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\obj\Debug\net7.0\compressed\177ug20cdz.gz
+C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\obj\Debug\net7.0\compressed\loecdjr8k0.gz
+C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\obj\Debug\net7.0\compressed\jywrr0tfzj.gz
