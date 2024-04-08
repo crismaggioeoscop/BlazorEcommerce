@@ -2532,3 +2532,8 @@ C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEco
 C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\obj\Debug\net7.0\BlazorApp1.Client.pdb
 C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\obj\Debug\net7.0\ref\BlazorApp1.Client.dll
 C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\obj\Debug\net7.0\scopedcss\Pages\OrderDetails.razor.rz.scp.css
+C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\obj\Debug\net7.0\scopedcss\Shared\AdminMenu.razor.rz.scp.css
+C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\obj\Debug\net7.0\scopedcss\Pages\Admin\Categories.razor.rz.scp.css
+C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\obj\Debug\net7.0\scopedcss\Pages\Admin\ProductTypes.razor.rz.scp.css
+C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\obj\Debug\net7.0\scopedcss\Pages\Admin\Products.razor.rz.scp.css
+C:\Users\cristian.maggiorano\repositories\Blazor\BlazorEcommerceGithub\BlazorEcommerce\Client\obj\Debug\net7.0\scopedcss\Pages\Admin\EditProduct.razor.rz.scp.css

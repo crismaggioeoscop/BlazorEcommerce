@@ -1,0 +1,26 @@
+img[b-rroxen327l] {
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.row[b-rroxen327l] {
+    display: flex;
+    padding: 6px;
+}
+
+.col[b-rroxen327l] {
+    flex: 1;
+}
+
+.header[b-rroxen327l] {
+    display: flex;
+    font-weight: 600;
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+}
+
+.col-visible[b-rroxen327l] {
+    text-align: center;
+}

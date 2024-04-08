@@ -32,7 +32,7 @@ namespace BlazorApp1.Client.Services.AuthService
         }
 
         public async Task<bool> IsUserAuthenticated()
-        {
+        { 
             return (await _authenticationStateProvider.GetAuthenticationStateAsync()).User.Identity.IsAuthenticated;
         }
     }

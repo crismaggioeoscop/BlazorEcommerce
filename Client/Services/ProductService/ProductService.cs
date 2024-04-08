@@ -12,7 +12,8 @@ namespace BlazorApp1.Client.Services.ProductService
         public string LastSearchText { get; set; } = string.Empty;
 
         public List<Product> Products { get; set; } = new List<Product>();
-        public string Message { get; set; }
+        public string Message { get; set; } = "Loading products...";
+        public List<Product> AdminProducts { get; set; }
 
         public ProductService(HttpClient http) { 
             _http = http;
@@ -40,11 +41,6 @@ namespace BlazorApp1.Client.Services.ProductService
             return result;            
         }
 
-        //public Task<ServiceResponse<Product>> SearchProducts(string searchText)
-        //{
-        //    throw new NotImplementedException();
-        //}
-
         public async Task SearchProducts(string searchText, int page)
         {
             LastSearchText = searchText;
@@ -62,6 +58,33 @@ namespace BlazorApp1.Client.Services.ProductService
         {
             var result = await _http.GetFromJsonAsync<ServiceResponse<List<string>>>($"api/product/searchsuggestions/{searchText}");
             return result.Data;
+        }
+
+        public async Task GetAdminProducts()
+        {
+            var result = await _http.GetFromJsonAsync<ServiceResponse<List<Product>>>("api/product/admin");
+            if (result != null && result.Data != null)
+                AdminProducts = result.Data;
+            CurrentPage = 1;
+            PageCount = 0;
+            if(AdminProducts.Count == 0) Message = "No products found";
+        }
+
+        public async Task<Product> CreateProduct(Product product)
+        {
+            var result = await _http.PostAsJsonAsync<Product>("api/product", product);
+            return (await result.Content.ReadFromJsonAsync<ServiceResponse<Product>>()).Data;
+        }
+
+        public async Task<Product> UpdateProduct(Product product)
+        {
+            var result = await _http.PutAsJsonAsync<Product>("api/product", product);
+            return (await result.Content.ReadFromJsonAsync<ServiceResponse<Product>>()).Data;
+        }
+
+        public async Task DeleteProduct(Product product)
+        {
+             var result = await _http.DeleteAsync($"api/product/{product.Id}");
         }
     }
 }

@@ -2,6 +2,7 @@
 using BlazorApp1.Server.Services.ProductServices;
 using BlazorApp1.Shared;
 using BlazorApp1.Shared.DTO;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -16,6 +17,31 @@ namespace BlazorApp1.Server.Controllers
         {
             _productService = productService;
         }
+
+        [HttpGet("admin"), Authorize(Roles = "Admin")]
+        public async Task<ActionResult<ServiceResponse<List<Product>>>> GetAdminProducts()
+        {
+            return Ok(await _productService.GetAdminProducts());
+        }
+
+        [HttpPost, Authorize(Roles = "Admin")]
+        public async Task<ActionResult<ServiceResponse<Product>>> CreateProduct(Product product)
+        {
+            return Ok(await _productService.CreateProduct(product));
+        }
+
+        [HttpPut, Authorize(Roles = "Admin")]
+        public async Task<ActionResult<ServiceResponse<Product>>> UpdateProduct(Product product)
+        {
+            return Ok(await _productService.UpdateProduct(product));
+        }
+         
+        [HttpDelete("{productId}"), Authorize(Roles = "Admin")]
+        public async Task<ActionResult<ServiceResponse<bool>>> DeleteProduct(int productId)
+        {
+            return Ok(await _productService.DeleteProduct(productId));
+        }
+
 
         [HttpGet]
         public async Task<ActionResult<ServiceResponse<List<Product>>>> GetProducts()

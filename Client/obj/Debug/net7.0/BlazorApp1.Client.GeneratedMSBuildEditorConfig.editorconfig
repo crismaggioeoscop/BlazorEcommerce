@@ -74,6 +74,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/cristian.maggiorano/repositories/Blazor/BlazorEcommerceGithub/BlazorEcommerce/Client/Pages/Admin/Categories.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ2F0ZWdvcmllcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-sg8xpxnoup
+
+[C:/Users/cristian.maggiorano/repositories/Blazor/BlazorEcommerceGithub/BlazorEcommerce/Client/Pages/Admin/EditProduct.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRWRpdFByb2R1Y3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-rroxen327l
+
+[C:/Users/cristian.maggiorano/repositories/Blazor/BlazorEcommerceGithub/BlazorEcommerce/Client/Pages/Admin/Products.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUHJvZHVjdHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-ybx7pkd2r5
+
+[C:/Users/cristian.maggiorano/repositories/Blazor/BlazorEcommerceGithub/BlazorEcommerce/Client/Pages/Admin/ProductTypes.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUHJvZHVjdFR5cGVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-vith122v6g
+
 [C:/Users/cristian.maggiorano/repositories/Blazor/BlazorEcommerceGithub/BlazorEcommerce/Client/Pages/Cart.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-7b3n320mmi
@@ -89,6 +105,10 @@ build_metadata.AdditionalFiles.CssScope = b-i2jk9br4fw
 [C:/Users/cristian.maggiorano/repositories/Blazor/BlazorEcommerceGithub/BlazorEcommerce/Client/Pages/ProductDetails.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdERldGFpbHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-0kyecytp8n
+
+[C:/Users/cristian.maggiorano/repositories/Blazor/BlazorEcommerceGithub/BlazorEcommerce/Client/Shared/AdminMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEFkbWluTWVudS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-vkvhxag3sj
 
 [C:/Users/cristian.maggiorano/repositories/Blazor/BlazorEcommerceGithub/BlazorEcommerce/Client/Shared/FeaturedProducts.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEZlYXR1cmVkUHJvZHVjdHMucmF6b3I=
